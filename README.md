@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository to your local machine:
 
-git clone <repository_url>
+git clone https://github.com/nazhur/CV_Generator/
 
 2. Install Python and Django if you haven't already.
 
