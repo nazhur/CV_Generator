@@ -60,8 +60,10 @@ python manage.py runserver
 
 ## Screeshots
 
+Homepage
 ![Homepage](https://github.com/nazhur/CV_Generator/blob/main/ss1.JPG?raw=true)
 
+CV download page
 ![CV Download](https://github.com/nazhur/CV_Generator/blob/main/ss2.JPG?raw=true)
 
 
