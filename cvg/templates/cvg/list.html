@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Database Profile List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        /* Custom styles */
+        body {
+            background-color: #f8f9fa;
+        }
+        .profile-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        .profile-name {
+            font-size: 20px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .btn-download {
+            background-color: #ffc107;
+            border-color: #ffc107;
+            color: #333333;
+        }
+        .btn-download:hover {
+            background-color: #ffcd39;
+            border-color: #ffcd39;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">CV Database Profile List</h2>
+            </div>
+        </div>
+        <hr>
+        {% for profile in profile %}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="profile-card">
+                    <div class="row">
+                        <div class="col-md-6 profile-name">
+                            {{ profile.name }}
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <a href="/{{ profile.id }}" class="btn btn-warning btn-download">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
