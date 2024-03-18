@@ -64,7 +64,7 @@ python manage.py runserver
    
 ![Homepage](https://github.com/nazhur/CV_Generator/blob/main/ss1.JPG?raw=true)
 
-3. CV download page
+2. CV download page
    
 ![CV Download](https://github.com/nazhur/CV_Generator/blob/main/ss2.JPG?raw=true)
 
