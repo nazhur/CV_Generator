@@ -58,10 +58,10 @@ python manage.py runserver
 - Bootstrap
 - PDFKit (for generating PDFs)
 
-- ## Screeshots
+## Screeshots
 
-- ![Homepage](https://github.com/nazhur/CV_Generator/blob/main/ss1.JPG?raw=true)
+![Homepage](https://github.com/nazhur/CV_Generator/blob/main/ss1.JPG?raw=true)
 
-- 
+![CV Download](https://github.com/nazhur/CV_Generator/blob/main/ss2.JPG?raw=true)
 
 
